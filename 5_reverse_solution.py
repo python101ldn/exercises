@@ -1,20 +1,11 @@
-# Using a while loop, reverse a string
+# Reverse text provided by the user
 
-word = 'a string to be reversed'
-while_result = ''
-position = 0
+print("Please write anything you'd like to be reversed")
+user_text = raw_input()
 
-while len(while_result) != len(word):  # Or you could use while position < len(word)
-    while_result = word[position] + while_result
-    position = position + 1
+reversed = ''
 
-print("Result from while loop: " + while_result)
+for letter in user_text:
+	reversed = letter + reversed
 
-# Using a for loop, reverse a string
-
-for_result = ''
-
-for letter in word:
-    for_result = letter + for_result
-
-print("Result from for loop: " + for_result)
+print(reversed)
