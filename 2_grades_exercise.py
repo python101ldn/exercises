@@ -5,7 +5,7 @@
 # If their grade is lower than 60 - print 'Fail'.
 
 
-grade = input("Gimme a grade please")
+grade = input('Gimme a grade please')
 
 grade = int(grade)
 
