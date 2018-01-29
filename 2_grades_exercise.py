@@ -5,11 +5,13 @@
 # If their grade is lower than 60 - print 'Fail'.
 
 
-grade = 99
+grade = input("Gimme a grade please")
 
-if (grade > 80):
+grade = int(grade)
+
+if (grade >= 80):
     print('Distinction')
-elif (grade > 60):
+elif (grade >= 60):
     print('Pass')
 else:
     print('Fail')
