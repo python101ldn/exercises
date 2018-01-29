@@ -6,9 +6,10 @@
 
 
 grade = 99
+
 if (grade > 80):
-  print 'Distinction'
+  print('Distinction')
 elif (grade > 60):
-  print 'Pass'
+  print('Pass')
 else:
-  print 'Fail'
+  print('Fail')
