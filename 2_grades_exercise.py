@@ -9,7 +9,7 @@ grade = input('Gimme a grade please')
 
 grade = int(grade)
 
-if (grade >= 80):
+if (grade > 80):
     print('Distinction')
 elif (grade >= 60):
     print('Pass')
