@@ -1,4 +1,4 @@
-# Create a variable called start_number, and make it a random number.  
+# Create a variable called start_number, and make it a random number.
 # Create a variable called step_1, and make it start_number multiplied by 2
 # Create a variable called step_2, and add 9 to step_1
 # Create a variable called step_3, and subtract 3 from step_2

@@ -4,7 +4,7 @@ index = 0
 total = 0
 
 while index < len(random_numbers):
-	total = total + random_numbers[index]
-	index = index + 1
+    total = total + random_numbers[index]
+    index = index + 1
 
 print('Total sum is ' + str(total))

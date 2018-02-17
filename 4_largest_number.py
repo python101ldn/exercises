@@ -4,8 +4,8 @@ index = 1
 largest = random_numbers[0]
 
 while index < len(random_numbers):
-	if random_numbers[index] > largest:
-		largest = random_numbers[index]
-	index = index + 1
+    if random_numbers[index] > largest:
+        largest = random_numbers[index]
+    index = index + 1
 
 print('Largest number of list is ' + str(largest))
