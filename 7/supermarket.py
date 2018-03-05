@@ -1,8 +1,6 @@
-
-shopping_cart = {
-    'banana': 3,
-    'orange': 2
-}
+# 1. Define a function that takes two arguments: food and number of items,
+# and returns the cost of those items using the prices dictionary
+# e.g. you're buying 2 oranges, this should cost £3 in total
 
 prices = {
     'banana': 4,
@@ -11,12 +9,12 @@ prices = {
     'pear': 3
 }
 
+# 2. Define a function that returns the cost for the below shopping cart
 
-# 1. Define a function that takes two arguments: food and number of items,
-# and returns the cost of those items using the prices dictionary
-# e.g. you're buying 2 oranges, this should cost £3 in total
-
-# 2. Define a function that returns the cost for your whole cart
+shopping_cart = {
+    'banana': 3,
+    'orange': 2
+}
 
 # 3. Define a function that, using the below stock_levels dictionary, only adds to the total
 # if the item is in stock
