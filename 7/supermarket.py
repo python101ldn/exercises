@@ -1,7 +1,7 @@
 
 shopping_cart = {
-	'banana': 3,
-	'orange': 2
+    'banana': 3,
+    'orange': 2
 }
 
 prices = {
