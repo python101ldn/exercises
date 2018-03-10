@@ -5,6 +5,16 @@ import csv
 
 # Do not edit - the dictionary should be empty to begin with!
 restaurants = {}
+# During execution it will become a dictionary containing dictionaries e.g.
+#
+# restaurants = {
+#     'Byron': {
+#          'cuisine': 'burger',
+#          'cost': 3,
+#          'star_rating': 3,
+#          'distance': 5
+#      }, ...etc
+# }
 
 
 # Do not edit
@@ -66,6 +76,7 @@ def read_csvfile():
         for rest_details in csv_reader:
             restaurant_name = rest_details['name']
             restaurants[restaurant_name] = rest_details
+
 
 # Execution starts from here
 read_csvfile()
