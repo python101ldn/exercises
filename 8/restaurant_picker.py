@@ -43,8 +43,8 @@ def search_on_rating(min_stars):
 # TODO
 def add_restaurant():
     # 1. Create variables for each value you need from the user
-    # 2. Use those variables to create a dictionary, and also add it to the
-    # restaurants dictionary on line 5
+    # 2. Use those variables fill in the below, which adds your
+    # values to the restaurants dictionary on line 5
 
     restaurants['your variable for the name goes here'] = {
         'cuisine': 'your variable for cuisine goes here!',
@@ -90,17 +90,14 @@ while keep_going:
         search_on_distance(distance)
         print('\n')
     elif choice == '2':
-        # TODO
-        print('Call the function search_on_rating!')
+        # TODO - Call the function search_on_rating
         print('\n')
     elif choice == '3':
-        # TODO
-        print('Call the function add_restaurant')
-        print('Call the function save_changes')
+        # TODO - Call the function add_restaurant
+        # TODO - Call the function save_changes
         print('\n')
     elif choice == '4':
-        # TODO
-        print('How do we prevent an infinite while loop?')
+        # TODO - How do we prevent an infinite while loop?
         print('\n')
     else:
         print('That\'s not a valid choice - try again!')
