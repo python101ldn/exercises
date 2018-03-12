@@ -5,7 +5,8 @@ import csv
 
 # Do not edit - the dictionary should be empty to begin with!
 restaurants = {}
-# During execution it will become a dictionary containing dictionaries e.g.
+# During execution it will become a dictionary containing dictionaries
+# An example is below:
 #
 # restaurants = {
 #     'Byron': {
