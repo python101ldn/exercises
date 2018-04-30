@@ -20,9 +20,7 @@ def search_on_distance(max_distance):
         restaurant = restaurants[restaurant_name]
 
         if int(restaurant['distance']) <= int(max_distance):
-            print(
-                restaurant_name + ' is a ' + restaurant['cuisine'] +
-                ' place ' + restaurant['distance'] + ' minute(s) from here')
+            print(restaurant_name)
 
 
 def search_on_rating(min_stars):
