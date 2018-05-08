@@ -1,4 +1,4 @@
-# Print the 2, then 3, then 4 times tables. Don't repeat code!
+# Print the 2, then 3, then 4 times tables. Use nested for loops so that you don't repeat code!
 
 # Example output:
 # 2
