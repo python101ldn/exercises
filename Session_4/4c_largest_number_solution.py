@@ -9,3 +9,7 @@ while index < len(random_numbers):
     index = index + 1
 
 print('Largest number of list is ' + str(largest))
+
+# Alternative solution!
+sorted_numbers = sorted(random_numbers)
+print('Largest number of list is ' + str(sorted_numbers[-1]))
