@@ -7,7 +7,7 @@ vowels = ['a', 'e', 'i', 'o', 'u']
 total = 0
 
 for letter in user_text:
-    if letter in vowels:
-    	total = total + 1
+    if letter.lower() in vowels:  # lower() converts the letter to lower case
+        total = total + 1
 
 print('There are ' + str(total) + ' vowels')
