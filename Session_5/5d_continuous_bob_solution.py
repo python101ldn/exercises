@@ -10,7 +10,7 @@ while talking:
     elif to_bob.lower() == 'bye':
         print('Smell ya later.')
         talking = False
-    # Below from Session 2 and exercise 4b
+    # Below from previous weeks
     elif '?' in to_bob and '!' in to_bob:
         print('Calm down, I know what I\'m doing!')
     elif '?' in to_bob:
