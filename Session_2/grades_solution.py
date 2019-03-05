@@ -6,9 +6,8 @@
 # If their grade is lower than 60 - print 'Fail'.
 
 
-grade = input('Gimme a grade please')
-
-grade = int(grade)
+# Try changing this to 60, 80 and 81 to make sure your comparisons are correct!
+grade = 59
 
 if (grade > 80):
     print('Distinction')
