@@ -6,7 +6,7 @@
 # Create a variable called result, and subtract start_number from step_4
 # Print the result
 
-start_number = 29872439847
+start_number = 15
 step_1 = start_number * 2
 step_2 = step_1 + 9
 step_3 = step_2 - 3
