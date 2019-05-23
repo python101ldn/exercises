@@ -5,13 +5,11 @@ greetings = ['hi', 'hey', 'hello', 'howdy']
 if to_bob.lower() in greetings:
     print('...sup')
 # Below from Session 2
-elif '?' in to_bob and '!' in to_bob:
-    print('Calm down, I know what I\'m doing!')
-elif '?' in to_bob:
-    print('Sure.')
-elif '!' in to_bob:
-    print('Whoa, chill out!')
-elif to_bob == '':
-    print('Fine. Be that way!')
+elif to_bob == 'hello':
+    print('Hey.')
+elif to_bob == 'HELLO':
+    print('Woah, hey!')
+elif to_bob.lower() == 'bye' or to_bob == 'goodbye':
+    print('Laters.')
 else:
     print('Whatever.')
