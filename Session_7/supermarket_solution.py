@@ -1,12 +1,12 @@
 # 1. Define a function that takes two arguments: food and number of items,
 # and returns the cost of those items using the prices dictionary
-# e.g. you're buying 2 oranges, this should cost £3 in total
+# e.g. you're buying 2 oranges, this should cost £1.60 in total
 
 prices = {
-    'banana': 4,
-    'apple': 2,
-    'orange': 1.5,
-    'pear': 3
+    'banana': 0.17,
+    'apple': 0.32,
+    'orange': 0.80,
+    'pear': 0.41
 }
 
 def calculate_cost(item, number_of_items):
@@ -41,9 +41,9 @@ stock_levels = {
     'pear': 15
 }
 
-
 def calculate_cost_with_stock_check(item, number_of_items):
     if item in prices and stock_levels[item] > 0:
         return prices[item] * number_of_items
     else:
         return 0
+
