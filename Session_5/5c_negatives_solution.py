@@ -1,5 +1,4 @@
-random_numbers = [-1, 5.36, 0, -25, 535, -42.3]
-
+random_numbers = [1, 5, 0, -2, 3, -4, -3, 11, 5]
 index = 0
 negatives = []
 
