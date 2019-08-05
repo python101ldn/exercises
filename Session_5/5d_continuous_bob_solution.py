@@ -3,21 +3,19 @@ talking = True
 while talking:
 
     to_bob = input('What would you like to say to Bob?\n')
-    greetings = ['hi', 'hey', 'hello', 'howdy']
+    greetings = ['hi', 'hey', 'yo', 'howdy']
 
-    if to_bob.lower() in greetings:
-        print('...sup')
-    elif to_bob.lower() == 'bye':
+    if to_bob.lower() == 'bye':
         print('Smell ya later.')
         talking = False
     # Below from previous weeks
-    elif '?' in to_bob and '!' in to_bob:
-        print('Calm down, I know what I\'m doing!')
-    elif '?' in to_bob:
-        print('Sure.')
-    elif '!' in to_bob:
-        print('Whoa, chill out!')
-    elif to_bob == '':
-        print('Fine. Be that way!')
+    elif to_bob == 'hello':
+        print('Hey.')
+    elif to_bob == 'How are you?' or to_bob == 'You good?':
+        print('Fine')
+    elif to_bob in greetings:
+        print('...sup')
+    elif to_bob[0] == 'A':
+        print('AAAAH')
     else:
         print('Whatever.')

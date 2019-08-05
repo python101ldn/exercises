@@ -1,5 +1,4 @@
-random_numbers = [-1, 5.36, 0, -25, 535, -42.3]
-
+random_numbers = [1, 5, 0, -2, 3, -4, -3, 11, 5]
 total = 0
 
 for num in random_numbers:
