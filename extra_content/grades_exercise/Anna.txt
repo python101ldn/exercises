@@ -1,0 +1,2 @@
+Name | Maths | Science | English | Total marks | Percentage 
+Anna | 100 | 54 | 70 | 224 | 74.67%
