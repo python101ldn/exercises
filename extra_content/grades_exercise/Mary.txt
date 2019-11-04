@@ -1,2 +1,0 @@
-Name | Maths | Science | English | Total marks | Percentage 
-Mary | 45 | 80 | 80 | 205 | 68.33%

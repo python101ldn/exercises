@@ -1,2 +1,0 @@
-Name | Maths | Science | English | Total marks | Percentage 
-Max | 70 | 67 | 80 | 217 | 72.33%
